@@ -46,6 +46,7 @@ class Bartender < Person
 
   def greet(customer)
     super
+    puts "hello!"
     @customers << customer
   end
 
