@@ -34,7 +34,7 @@ class Person
   end
 
   def say(message)
-    puts "#{@name}: #{message}!"
+    puts "#{@name}: #{message}?"
   end
 end
 
